@@ -3,12 +3,25 @@
 3.      tabla, i[0-n]
 4.      valorLimite, i[0-n]
 5.      mensajeFinal, x(200)[{a-b}, {BS}, {*, =}] <-- ""
-6.      tabla <-- 3 
-7.      valorLimite <-- 10 
-8.      mensajeFinal <-- obtenerTabla(tabla, valorLimite)
-9.      Escribir mensajeFinal 
-10.  fin funcion principal 
-11.  
+6.      opcion, i[0,n]
+7.      tabla <-- 3 
+8.      valorLimite <-- 10 
+9.      mensajeFinal <-- obtenerTabla(tabla, valorLimite)
+10.   Escribir "Selecciones la operación que desea realizar"
+11. Escribir "Ingrese 1 para sumar"
+12. Escribir "Ingrese 2 para multiplicar"
+13. Leer opcion
+14. Dependiendo_De(opcion) Haga           
+      opcion 1 
+15.      mensajeFinal  <-- funcion obtenerTablaMultiplicar (tabla, valorLimite)
+16.   Fin
+17.   opcion 2
+18.      mensajeFinal  <-- funcion obtenerTablaSuma(tabla, valorLimite)
+19.   Fin
+20. Fin_Dependiendo_De
+21. Escribir mensajeFinal 
+22.  fin funcion principal 
+23.  
 11. // función para multiplicar
 12.  funcion obtenerTablaMultiplicar(tabla, i; limite, i) : x 
 13.     contador, i[0-n] <-- 1

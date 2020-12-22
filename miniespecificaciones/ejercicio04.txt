@@ -1,4 +1,4 @@
-1.  Inicio
+ 1.  Inicio
 2.  funcion principal()
 3.      tabla, i[0-n]
 4.      valorLimite, i[0-n]

@@ -4,8 +4,8 @@
 3.    variableDos, x(20)[{a-z}, {BS}]
 4.    Escribir "Escriba un nombre"
 4.    Leer variable
-5.    variable2 <-- obtenerMensaje(variable)
-6.    Escribir variable2 
+5.    variableDos <-- obtenerMensaje(variable)
+6.    Escribir variabledos
 7.  fin funcion principal 
 8. // se define un método o función
 9.  funcion obtenerMensaje(a, x(20)) : x // luego de los dos puntos se 
